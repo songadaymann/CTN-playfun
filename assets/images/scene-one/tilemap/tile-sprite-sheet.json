@@ -1,0 +1,251 @@
+{
+	"textures": [
+		{
+			"image": "tile-sprite-sheet.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 771,
+				"h": 487
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "log.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 29,
+						"w": 400,
+						"h": 150
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 400,
+						"h": 150
+					}
+				},
+				{
+					"filename": "big-bush.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 242,
+						"h": 184
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 242,
+						"h": 184
+					},
+					"frame": {
+						"x": 403,
+						"y": 1,
+						"w": 242,
+						"h": 184
+					}
+				},
+				{
+					"filename": "stump.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 213,
+						"h": 204
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 213,
+						"h": 204
+					},
+					"frame": {
+						"x": 1,
+						"y": 153,
+						"w": 213,
+						"h": 204
+					}
+				},
+				{
+					"filename": "ground3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 290
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 84,
+						"w": 179,
+						"h": 188
+					},
+					"frame": {
+						"x": 216,
+						"y": 153,
+						"w": 179,
+						"h": 188
+					}
+				},
+				{
+					"filename": "flowers.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 189,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 189,
+						"h": 128
+					},
+					"frame": {
+						"x": 216,
+						"y": 343,
+						"w": 189,
+						"h": 128
+					}
+				},
+				{
+					"filename": "blob.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 182,
+						"h": 107
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 182,
+						"h": 107
+					},
+					"frame": {
+						"x": 1,
+						"y": 359,
+						"w": 182,
+						"h": 107
+					}
+				},
+				{
+					"filename": "little-bush.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 132,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 110
+					},
+					"frame": {
+						"x": 397,
+						"y": 187,
+						"w": 132,
+						"h": 110
+					}
+				},
+				{
+					"filename": "ground2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 290
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 85,
+						"w": 179,
+						"h": 187
+					},
+					"frame": {
+						"x": 407,
+						"y": 299,
+						"w": 179,
+						"h": 187
+					}
+				},
+				{
+					"filename": "mushroom.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 138,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 138,
+						"h": 96
+					},
+					"frame": {
+						"x": 531,
+						"y": 187,
+						"w": 138,
+						"h": 96
+					}
+				},
+				{
+					"filename": "tuft.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 123,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 123,
+						"h": 87
+					},
+					"frame": {
+						"x": 647,
+						"y": 1,
+						"w": 123,
+						"h": 87
+					}
+				},
+				{
+					"filename": "ground1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 290
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 89,
+						"w": 178,
+						"h": 188
+					},
+					"frame": {
+						"x": 588,
+						"y": 285,
+						"w": 178,
+						"h": 188
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:27ba7acff955210813b83d37ac0c0801:90eccd95eb1168fb2326fed9d8b804c7:014267d90e7c792045646d8e950690b0$"
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "wall-tree-spikes",
+        "question-block",
+        "."
+    ],
+    "fileStates": {
+    },
+    "map.height": 16,
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 80,
+    "openFiles": [
+    ],
+    "project": "scene-one.tiled-project",
+    "recentFiles": [
+    ]
+}

@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "player-inner-tube.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 168,
+				"h": 186
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "inner-tube.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 33,
+						"w": 166,
+						"h": 184
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 166,
+						"h": 184
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9176b6f3e1fea37b0f25604ef1eda203:0d5f8e7161825d61776b7f4460cadc30:47d4b74a0fc9550c98df4b6e884beb37$"
+	}
+}

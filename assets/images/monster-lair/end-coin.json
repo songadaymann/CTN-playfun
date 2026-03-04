@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "end-coin.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1021,
+				"h": 997
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "468B48E6-09ED-4138-9DA1-4E24C598C5D9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 1019,
+						"h": 995
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1019,
+						"h": 995
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:72dd8aa05a38b5773291722919a92b03:a675af6e4f55b67bac65dc39cb3aa10d:94ac7915bfdb7590d81fbb1326a93c40$"
+	}
+}

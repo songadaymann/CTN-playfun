@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "final-tax-monster.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1611,
+				"h": 763
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "final-tax-monster1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 600,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 12,
+						"w": 534,
+						"h": 385
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 534,
+						"h": 385
+					}
+				},
+				{
+					"filename": "final-tax-monster2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 600,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 12,
+						"w": 535,
+						"h": 374
+					},
+					"frame": {
+						"x": 1,
+						"y": 388,
+						"w": 535,
+						"h": 374
+					}
+				},
+				{
+					"filename": "final-tax-monster6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 600,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 9,
+						"w": 528,
+						"h": 383
+					},
+					"frame": {
+						"x": 537,
+						"y": 1,
+						"w": 528,
+						"h": 383
+					}
+				},
+				{
+					"filename": "final-tax-monster3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 600,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 17,
+						"w": 528,
+						"h": 375
+					},
+					"frame": {
+						"x": 538,
+						"y": 386,
+						"w": 528,
+						"h": 375
+					}
+				},
+				{
+					"filename": "final-tax-monster4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 600,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 24,
+						"w": 543,
+						"h": 364
+					},
+					"frame": {
+						"x": 1067,
+						"y": 1,
+						"w": 543,
+						"h": 364
+					}
+				},
+				{
+					"filename": "final-tax-monster5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 600,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 70,
+						"y": 4,
+						"w": 472,
+						"h": 388
+					},
+					"frame": {
+						"x": 1068,
+						"y": 367,
+						"w": 472,
+						"h": 388
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:dc768583a680858823feebe0cd854cc9:3a2c89316836cb10f3a08286db8d99be:ab6de8e8eb869859d1ec28da388beecc$"
+	}
+}

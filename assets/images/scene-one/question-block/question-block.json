@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "question-block.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 951,
+				"h": 238
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "QB1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 236,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 236,
+						"h": 236
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 236,
+						"h": 236
+					}
+				},
+				{
+					"filename": "QB3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 236,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 236,
+						"h": 236
+					},
+					"frame": {
+						"x": 239,
+						"y": 1,
+						"w": 236,
+						"h": 236
+					}
+				},
+				{
+					"filename": "QB4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 236,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 236,
+						"h": 236
+					},
+					"frame": {
+						"x": 477,
+						"y": 1,
+						"w": 236,
+						"h": 236
+					}
+				},
+				{
+					"filename": "QB2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 236,
+						"h": 237
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 235,
+						"h": 235
+					},
+					"frame": {
+						"x": 715,
+						"y": 1,
+						"w": 235,
+						"h": 235
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2c8de870e0d71dfde6d10a00386a9e03:f765beb7a568c00d6ebe9e307758a08d:a8534844e30a154d51e18fa5eb41e2ea$"
+	}
+}

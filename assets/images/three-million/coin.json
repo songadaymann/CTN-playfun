@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "coin.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 981,
+				"h": 1013
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "coin.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 5,
+						"w": 979,
+						"h": 1011
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 979,
+						"h": 1011
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2182787312ab49cc79dc183f72614bb8:421df50e44e4480858eb5e056f548864:37dcde439de7f7292f96409a4c62c08e$"
+	}
+}

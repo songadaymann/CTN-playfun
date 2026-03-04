@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "tax-yell3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1212,
+				"h": 936
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "tax-yell3-closed.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 935
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 0,
+						"w": 604,
+						"h": 934
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 604,
+						"h": 934
+					}
+				},
+				{
+					"filename": "tax-yell3-open.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 935
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 0,
+						"w": 604,
+						"h": 934
+					},
+					"frame": {
+						"x": 607,
+						"y": 1,
+						"w": 604,
+						"h": 934
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0634913771594ffdf3c6e50ce1e12fae:10bb67d04dacbbdb8cebb691caf37fae:f92781d51c53d7be2ccb51d9e144b79a$"
+	}
+}

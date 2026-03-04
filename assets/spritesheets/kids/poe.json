@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "poe.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1258,
+				"h": 909
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "poe1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 1229
+					},
+					"spriteSourceSize": {
+						"x": 198,
+						"y": 297,
+						"w": 302,
+						"h": 907
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 302,
+						"h": 907
+					}
+				},
+				{
+					"filename": "poe3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 1229
+					},
+					"spriteSourceSize": {
+						"x": 112,
+						"y": 305,
+						"w": 485,
+						"h": 899
+					},
+					"frame": {
+						"x": 305,
+						"y": 1,
+						"w": 485,
+						"h": 899
+					}
+				},
+				{
+					"filename": "poe2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 1229
+					},
+					"spriteSourceSize": {
+						"x": 127,
+						"y": 338,
+						"w": 465,
+						"h": 866
+					},
+					"frame": {
+						"x": 792,
+						"y": 1,
+						"w": 465,
+						"h": 866
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:7d67a75d61d7176a6d7152c3d676c0f3:4aff8b9a70b7bdeab4bafb73bf05eded:b4d194f67a33458de1624d3a2bc53e7b$"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "aave-loan-scroll.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1021,
+				"h": 1021
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "aave-loan-scroll.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 1019,
+						"h": 1019
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1019,
+						"h": 1019
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:623db2ddcf37bbbfecb2924975fe0190:c0c532ecb066f729f8dabf6553c3da1e:b3d4adbf849919604830ff6b418e1541$"
+	}
+}

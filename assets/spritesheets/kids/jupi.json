@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "jupi.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1439,
+				"h": 1175
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "jupi1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 1229
+					},
+					"spriteSourceSize": {
+						"x": 213,
+						"y": 31,
+						"w": 274,
+						"h": 1173
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 274,
+						"h": 1173
+					}
+				},
+				{
+					"filename": "jupi2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 1229
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 73,
+						"w": 588,
+						"h": 1131
+					},
+					"frame": {
+						"x": 277,
+						"y": 1,
+						"w": 588,
+						"h": 1131
+					}
+				},
+				{
+					"filename": "jupi3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 700,
+						"h": 1229
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 76,
+						"w": 571,
+						"h": 1128
+					},
+					"frame": {
+						"x": 867,
+						"y": 1,
+						"w": 571,
+						"h": 1128
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ae22f23116860f7d82934ba9d7db8e60:724acc01bbefe7bc7c061518d0ba0f5b:8ef869d08ce255e5d7f2ceeb1fa6e5dd$"
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"textures": [
+		{
+			"image": "player-rocket.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1880,
+				"h": 361
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "player-rocket1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 15,
+						"w": 374,
+						"h": 359
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 374,
+						"h": 359
+					}
+				},
+				{
+					"filename": "player-rocket2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 15,
+						"w": 374,
+						"h": 359
+					},
+					"frame": {
+						"x": 377,
+						"y": 1,
+						"w": 374,
+						"h": 359
+					}
+				},
+				{
+					"filename": "player-rocket3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 15,
+						"w": 374,
+						"h": 359
+					},
+					"frame": {
+						"x": 753,
+						"y": 1,
+						"w": 374,
+						"h": 359
+					}
+				},
+				{
+					"filename": "player-rocket4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 15,
+						"w": 374,
+						"h": 359
+					},
+					"frame": {
+						"x": 1129,
+						"y": 1,
+						"w": 374,
+						"h": 359
+					}
+				},
+				{
+					"filename": "player-rocket5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 15,
+						"w": 374,
+						"h": 359
+					},
+					"frame": {
+						"x": 1505,
+						"y": 1,
+						"w": 374,
+						"h": 359
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bb2b5dfd7329debd72c53db1d821a089:0ab5b375f7a4ef5a18dd8efbdaa0bdad:797efe9ea1799ab43e9d3ad182635ded$"
+	}
+}

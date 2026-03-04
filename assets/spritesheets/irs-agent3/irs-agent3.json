@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "irs-agent3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1400,
+				"h": 1600
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "irs-agent3-hit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 700,
+						"h": 800
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 700,
+						"h": 800
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 700,
+						"h": 800
+					}
+				},
+				{
+					"filename": "irs-agent3-run1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 700,
+						"h": 800
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 700,
+						"h": 800
+					},
+					"frame": {
+						"x": 700,
+						"y": 0,
+						"w": 700,
+						"h": 800
+					}
+				},
+				{
+					"filename": "irs-agent3-run2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 700,
+						"h": 800
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 700,
+						"h": 800
+					},
+					"frame": {
+						"x": 0,
+						"y": 800,
+						"w": 700,
+						"h": 800
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c3cca5dead77b7eab0e6fc2b39f85d0d:819f894286300aaebb44e53457ecffe4:ed930247b7c9a869d79cf808b95f75d2$"
+	}
+}

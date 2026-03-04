@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "irs-agent-ship3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1002,
+				"h": 468
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "irs-agent-ship3-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 23,
+						"w": 499,
+						"h": 466
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 499,
+						"h": 466
+					}
+				},
+				{
+					"filename": "irs-agent-ship3-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 23,
+						"w": 499,
+						"h": 466
+					},
+					"frame": {
+						"x": 502,
+						"y": 1,
+						"w": 499,
+						"h": 466
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a3876d1296d44a711dc25bab8602356d:701f0ec8dc6c088a3fb6ab611f4ac274:5ae519065514e89231d8d03677f9c2bd$"
+	}
+}

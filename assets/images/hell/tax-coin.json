@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "tax-coin.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1026,
+				"h": 1026
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "262edf1e-d847-416b-8cc7-19b54f3d60ec.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1024,
+						"h": 1024
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1024,
+						"h": 1024
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ed16eedc62e9f51b9f7ab30d52c3ad09:5b0346e69831ae8aeab9773c8f71dc47:60bc698e3b765fcba464dce2999b629f$"
+	}
+}

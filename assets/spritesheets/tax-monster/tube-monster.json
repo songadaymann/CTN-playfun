@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "tube-monster.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1026,
+				"h": 1026
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "3BD45261-13C7-4317-8703-D6030AD5CB68.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1024,
+						"h": 1024
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1024,
+						"h": 1024
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bf0e19a3c219a3bc6e4473719ab137c1:47527924514efae084247ef881582f7c:87c16ef62094bf225a06ec4286a18e48$"
+	}
+}

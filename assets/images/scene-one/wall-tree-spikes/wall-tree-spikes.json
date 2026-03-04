@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "wall-tree-spikes.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1026,
+				"h": 1505
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "wall-tree-spikes.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1536
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 25,
+						"w": 1024,
+						"h": 1503
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1024,
+						"h": 1503
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:78b16e963a851fa7fd708ba2e9d51ec8:6d5c63864118386c2d25b34df0a30e00:7e84decb065bfe5b967e5e47ab5cbe72$"
+	}
+}

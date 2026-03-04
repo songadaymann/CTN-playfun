@@ -1,0 +1,125 @@
+{
+	"textures": [
+		{
+			"image": "do-kwon.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1656,
+				"h": 408
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "do-kwon-left.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 410,
+						"h": 410
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 4,
+						"w": 328,
+						"h": 406
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 328,
+						"h": 406
+					}
+				},
+				{
+					"filename": "do-kwon-right.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 410,
+						"h": 410
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 4,
+						"w": 330,
+						"h": 403
+					},
+					"frame": {
+						"x": 331,
+						"y": 1,
+						"w": 330,
+						"h": 403
+					}
+				},
+				{
+					"filename": "do-kwon-right-mid.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 410,
+						"h": 410
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 8,
+						"w": 348,
+						"h": 402
+					},
+					"frame": {
+						"x": 663,
+						"y": 1,
+						"w": 348,
+						"h": 402
+					}
+				},
+				{
+					"filename": "do-kwon-middle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 410,
+						"h": 410
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 5,
+						"w": 320,
+						"h": 399
+					},
+					"frame": {
+						"x": 1013,
+						"y": 1,
+						"w": 320,
+						"h": 399
+					}
+				},
+				{
+					"filename": "do-kwon-left-mid.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 410,
+						"h": 410
+					},
+					"spriteSourceSize": {
+						"x": 54,
+						"y": 7,
+						"w": 320,
+						"h": 396
+					},
+					"frame": {
+						"x": 1335,
+						"y": 1,
+						"w": 320,
+						"h": 396
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f7b5a0847a1b4c01e139759b633703a7:ae6ca4b81c22fcd77074ac3c7e80c32a:06bb6d9416b0c75eef5e2c6780dd82e5$"
+	}
+}

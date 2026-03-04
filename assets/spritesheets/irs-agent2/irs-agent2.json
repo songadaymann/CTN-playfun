@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "irs-agent2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1442,
+				"h": 1802
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "irs-agent2-hit.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 750,
+						"h": 900
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 726,
+						"h": 900
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 726,
+						"h": 900
+					}
+				},
+				{
+					"filename": "irs-agent2-run1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 750,
+						"h": 900
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 2,
+						"w": 719,
+						"h": 898
+					},
+					"frame": {
+						"x": 1,
+						"y": 903,
+						"w": 719,
+						"h": 898
+					}
+				},
+				{
+					"filename": "irs-agent2-run2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 750,
+						"h": 900
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 2,
+						"w": 719,
+						"h": 898
+					},
+					"frame": {
+						"x": 722,
+						"y": 903,
+						"w": 719,
+						"h": 898
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2eae8111dc702e0cf18ddda294c11aa1:a793cfa9b5dd0ec3e5c2405956f1963b:b72c3d66e5b9c47453349027b36cc2b1$"
+	}
+}

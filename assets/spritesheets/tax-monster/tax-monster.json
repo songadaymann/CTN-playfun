@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "tax-monster.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1762,
+				"h": 2025
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "tax-monster-idle1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 55,
+						"w": 877,
+						"h": 947
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 877,
+						"h": 947
+					}
+				},
+				{
+					"filename": "tax-monster-idle2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 87,
+						"y": 5,
+						"w": 877,
+						"h": 997
+					},
+					"frame": {
+						"x": 880,
+						"y": 1,
+						"w": 877,
+						"h": 997
+					}
+				},
+				{
+					"filename": "tax-monster-run1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 75,
+						"y": 0,
+						"w": 867,
+						"h": 1013
+					},
+					"frame": {
+						"x": 1,
+						"y": 950,
+						"w": 867,
+						"h": 1013
+					}
+				},
+				{
+					"filename": "tax-monster-run2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 0,
+						"w": 891,
+						"h": 1024
+					},
+					"frame": {
+						"x": 870,
+						"y": 1000,
+						"w": 891,
+						"h": 1024
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ca470b198bc851fd945c2c1c753c874c:d8d2f4fd0e586db97d6304ef485b72aa:45b62d4e2134844abce51d02b5d0da15$"
+	}
+}

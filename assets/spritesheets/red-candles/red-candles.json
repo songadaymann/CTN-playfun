@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "red-candles.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 767,
+				"h": 950
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "big-candle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 308,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 308,
+						"h": 948
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 308,
+						"h": 948
+					}
+				},
+				{
+					"filename": "mid1-candle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 308,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 0,
+						"w": 238,
+						"h": 728
+					},
+					"frame": {
+						"x": 311,
+						"y": 1,
+						"w": 238,
+						"h": 728
+					}
+				},
+				{
+					"filename": "mid2-candle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 308,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 251,
+						"w": 215,
+						"h": 472
+					},
+					"frame": {
+						"x": 551,
+						"y": 1,
+						"w": 215,
+						"h": 472
+					}
+				},
+				{
+					"filename": "small-candle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 308,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 72,
+						"y": 293,
+						"w": 163,
+						"h": 410
+					},
+					"frame": {
+						"x": 551,
+						"y": 475,
+						"w": 163,
+						"h": 410
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:be604bdb3660faf6b22d0b34065f212e:ab46d9b39bd0dea852178952426d8518:6e369f614376466a3df3e39b4b795b21$"
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "tax-yell2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1622,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "tax-yell2-closed.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 816,
+						"h": 1022
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 809,
+						"h": 1022
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 809,
+						"h": 1022
+					}
+				},
+				{
+					"filename": "tax-yell2-openL.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 816,
+						"h": 1022
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 809,
+						"h": 1022
+					},
+					"frame": {
+						"x": 1,
+						"y": 1025,
+						"w": 809,
+						"h": 1022
+					}
+				},
+				{
+					"filename": "tax-yell2-openR.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 816,
+						"h": 1022
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 0,
+						"w": 809,
+						"h": 1022
+					},
+					"frame": {
+						"x": 812,
+						"y": 1,
+						"w": 809,
+						"h": 1022
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:892ac536236878ebdb175ab2272279d7:542c91a0efeb9c00a8c849b370293113:94d688a7eb5c925280ed2a8d01f57b70$"
+	}
+}

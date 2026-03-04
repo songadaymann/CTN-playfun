@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "wife.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 727,
+				"h": 477
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "wife-idle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 277,
+						"h": 479
+					},
+					"spriteSourceSize": {
+						"x": 45,
+						"y": 0,
+						"w": 199,
+						"h": 475
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 199,
+						"h": 475
+					}
+				},
+				{
+					"filename": "wife-walk1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 277,
+						"h": 479
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 268,
+						"h": 474
+					},
+					"frame": {
+						"x": 202,
+						"y": 1,
+						"w": 268,
+						"h": 474
+					}
+				},
+				{
+					"filename": "wife-walk2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 277,
+						"h": 479
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 254,
+						"h": 473
+					},
+					"frame": {
+						"x": 472,
+						"y": 1,
+						"w": 254,
+						"h": 473
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9844af37bd907f0304e6d6eb9d13d0ce:16406306128da2f79be80cf899c3c9c3:6936800cb9c0fb724b4616894b2d55ca$"
+	}
+}

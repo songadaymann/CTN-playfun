@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phaser Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="x-ogp-key" content="YOUR_GAME_UUID" /> <!-- Replace with your Play.fun game UUID -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script> <!-- Phaser 3 library -->
+    <script src="https://sdk.play.fun"></script> <!-- Play.fun SDK -->
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #000; } /* Basic styling */
+        canvas { display: block; }
+        .touch-controls {
+            position: fixed;
+            bottom: 20px;
+            left: 0; /* Align to left edge */
+            right: 0; /* Align to right edge */
+            width: 100%;
+            display: flex; /* Use flexbox to position D-pad and action buttons */
+            justify-content: space-between; /* Space D-pad left, action buttons right */
+            align-items: flex-end; /* Align items to the bottom of the flex container */
+            padding: 0 20px; /* Add some padding on the sides */
+            box-sizing: border-box; /* Include padding in width calculation */
+            pointer-events: none; /* Allow clicks to pass through the container itself */
+        }
+        .touch-controls button {
+            width: 48px;
+            height: 48px;
+            opacity: 0.6;
+            font-size: 24px;
+            background-color: rgba(100, 100, 100, 0.7);
+            /* Prevent text selection/callout on tap */
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none;    /* Firefox */
+            -ms-user-select: none;     /* IE/Edge */
+            user-select: none;         /* Standard */
+            -webkit-touch-callout: none; /* Disable callouts (like copy/paste) on iOS */
+        }
+        .touch-controls .mid-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .dpad-container, .action-buttons-container {
+            pointer-events: all; /* Buttons should capture pointer events */
+            display: flex;
+            flex-direction: column; /* Stack buttons vertically if needed, or align them */
+            align-items: center; /* Center buttons if stacked */
+        }
+        .dpad-container button {
+            /* Styles from .touch-controls button will apply or can be overridden here */
+        }
+        .dpad-middle-row {
+            display: flex;
+        }
+        .action-buttons-container button {
+            /* Styles from .touch-controls button will apply */
+            /* Example: make action button visually distinct if desired */
+             background-color: #ff4136; /* A red-ish color for action */
+        }
+    </style>
+    <!-- Load Component Classes -->
+    <script>window.APPLY_BODY_DEBUG = false;</script>
+    <script src="js/utils/deviceUtils.js?v=3"></script>
+    <script src="js/utils/physicsUtils.js?v=3"></script>
+    <script src="js/utils/EffectUtils.js?v=3"></script>
+    <script src="js/components/Player.js?v=3"></script>
+    <script src="js/components/Enemy.js?v=3"></script>
+    <script src="js/components/EnemyManager.js?v=3"></script>
+    <script src="js/utils/RiverMask.js?v=3"></script>
+    <script src="js/components/TubePlayer.js?v=3"></script>
+    <script src="js/components/SceneSixEnemy.js?v=3"></script>
+    <script src="js/components/SceneSixEnemyType2.js?v=3"></script>
+    <script src="js/components/SceneSixEnemyType3.js?v=3"></script>
+    <script src="js/components/SceneSixEnemyType4.js?v=3"></script>
+    <script src="js/components/TouchControls.js?v=3"></script>
+    <script src="js/components/tax-monster-final-boss.js?v=3"></script>
+    <!-- Load Scene Classes -->
+    <script src="js/managers/MusicManager.js?v=3"></script>
+    <script src="js/managers/SoundManager.js?v=3"></script>
+    <script src="js/scenes/BootScene.js?v=3"></script>
+    <script src="js/scenes/TitleScene.js?v=3"></script>
+    <script src="js/scenes/three-million.js?v=3"></script>
+    <script src="js/scenes/interstitial.js?v=3"></script> <!-- Add Interstitial Scene -->
+    <script src="js/scenes/SceneOne.js?v=3"></script>  <!-- Renamed from GameScene -->
+    <script src="js/scenes/SceneTwo.js?v=3"></script>  <!-- Added SceneTwo -->
+    <script src="js/scenes/Falling.js?v=3"></script> <!-- New Falling scene -->
+    <script src="js/scenes/Hell.js?v=3"></script>    <!-- New Hell scene -->
+    <script src="js/scenes/SceneThree.js?v=3"></script> <!-- Falling concludes here -->
+    <script src="js/scenes/scenefour.js?v=3"></script> <!-- New SceneFour -->
+    <script src="js/scenes/scenefive.js?v=3"></script> <!-- New SceneFive -->
+    <script src="js/scenes/scenesix.js?v=3"></script> <!-- New SceneSix -->
+    <script src="js/scenes/EndScene.js?v=3"></script> <!-- New EndScene -->
+    <!-- Add other scenes/components here -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="phaser-game-container"></div>
+    <div id="rotate-warning" style="position:absolute;top:0;left:0;width:100%;height:100%;background:#000;color:#fff;font-family:'Press Start 2P',monospace;font-size:18px;align-items:center;justify-content:center;text-align:center;z-index:10000;display:none;">
+        Rotate your device<br>for the best experience
+    </div>
+    <!-- Game canvas will be created by Phaser here -->
+    <!-- Load Main Game Logic Last -->
+    <script src="js/game.js"></script>
+    
+    <!-- mann.cool play tracking -->
+    <script>
+        fetch('https://mann.cool/api/plays', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ slug: 'ctn', source: 'direct' }),
+        }).catch(() => {});
+    </script>
+</body>
+</html>

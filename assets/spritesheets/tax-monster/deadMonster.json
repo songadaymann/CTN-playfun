@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "deadMonster.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1394,
+				"h": 1026
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "deadMonster.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1536,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 85,
+						"y": 0,
+						"w": 1392,
+						"h": 1024
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1392,
+						"h": 1024
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c53e3a73ba7a734abf2026a0bbfda972:16d9fef7659fed7fb91c98bcdd636589:673b122bc6dfc0b0a6ec5cbd9f11228f$"
+	}
+}

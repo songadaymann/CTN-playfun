@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "irs-agent.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1393,
+				"h": 1742
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "IRS-got-hit.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1024,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 80,
+						"w": 1005,
+						"h": 887
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1005,
+						"h": 887
+					}
+				},
+				{
+					"filename": "IRS1-run1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 711,
+						"h": 851
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 711,
+						"h": 851
+					},
+					"frame": {
+						"x": 1,
+						"y": 890,
+						"w": 711,
+						"h": 851
+					}
+				},
+				{
+					"filename": "IRS1-run2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 711,
+						"h": 851
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 678,
+						"h": 851
+					},
+					"frame": {
+						"x": 714,
+						"y": 890,
+						"w": 678,
+						"h": 851
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1006182ff419db80cf374b427358c295:87c661987179a9c19db5f1d996d7e038:c42ef0038af14afa8e25eca636e0f724$"
+	}
+}
