@@ -325,7 +325,7 @@ class EndScene extends Phaser.Scene {
             backgroundColor: '#0000FF', // Blue background for button
             padding: { x: 20, y: 10 }     // Padding around text
         };
-        const buttonText = 'Click here to sign a message\nand get your 2% boost!';
+        const buttonText = 'Click here to hear the song!';
         this.winButton = this.add.text(
             gameWidth / 2,
             gameHeight / 2, // Centered
@@ -342,9 +342,7 @@ class EndScene extends Phaser.Scene {
             // Play.fun: save all accumulated points before leaving
             window.playfunSDK?.savePoints();
 
-            const baseUrl = 'https://6000.songaday.world/';
-            const queryParams = `?wonTheGame=1&hits=${this.playerHits}`;
-            const finalUrl = baseUrl + queryParams;
+            const finalUrl = 'https://6000.songaday.world/';
             console.log('EndScene: Win button clicked, opening URL:', finalUrl);
 
             // Try to open in a new tab. Some mobile browsers block this; if so, fall back.
