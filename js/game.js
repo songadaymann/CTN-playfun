@@ -169,14 +169,16 @@ window.onload = () => {
     window.game = game;
     console.log("Phaser game instance created:", game);
 
-    // Check if we're running inside an iframe (e.g., embedded in mann.cool)
+    // Check if we're running inside an iframe (e.g., embedded in mann.cool or play.fun)
     const isInIframe = window.self !== window.top;
-    
-    // Create touch controls for mobile users (but NOT if embedded in iframe - mann.cool provides its own controls)
-    if (isMobileDevice() && !isInIframe) {
+    // Detect mann.cool specifically — it provides its own virtual controller
+    const isMannCool = isInIframe && document.referrer.includes('mann.cool');
+
+    // Create touch controls for mobile users (skip only if mann.cool provides its own)
+    if (isMobileDevice() && !isMannCool) {
         game.touchControls = new TouchControls();
     } else {
-        // Provide a dummy object for desktop/iframe to prevent errors
+        // Provide a dummy object for desktop / mann.cool to prevent errors
         // mann.cool will update this via postMessage
         game.touchControls = {
             directions: { left: false, right: false, up: false, down: false, action: false },
