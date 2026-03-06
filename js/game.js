@@ -72,8 +72,17 @@ async function initPlayFun() {
 initPlayFun();
 
 // Helper: award points from any scene
+// Auto-saves after level completions (50+ points) so progress isn't lost
+let _unsavedPoints = 0;
 function awardPoints(points) {
-    window.playfunSDK?.addPoints(points);
+    if (!window.playfunSDK) return;
+    window.playfunSDK.addPoints(points);
+    _unsavedPoints += points;
+    // Save immediately on big awards (level complete, boss defeat, etc.)
+    if (_unsavedPoints >= 50) {
+        window.playfunSDK.savePoints();
+        _unsavedPoints = 0;
+    }
 }
 
 // Save points on page close so nothing is lost
